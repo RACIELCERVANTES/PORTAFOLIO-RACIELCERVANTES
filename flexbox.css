@@ -1,0 +1,111 @@
+/*Sección del menú */
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list {
+    display: flex;
+    gap: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu__header, .menu__list {
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center;
+}
+
+/*Sección del Header/Title/Hero */
+
+.title{
+    display: flex;
+}
+
+.title__div{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 5%;
+    padding-right: 3%;
+}
+
+.title__network{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3%;
+    text-align: left;
+}
+
+/*-- Sección de skills*/
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills__line{
+    display: flex;
+}
+
+/*-- Sección de Hobbies*/
+.hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hobbies__line{
+    display: flex;
+}
+
+/*-- Sección de Formación académica*/
+.academic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.academic__courses{
+    display: flex;
+}
+
+
+/*-- Sección de Experiencia Profesional/Proyectos*/
+
+
+.experience_container{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    overflow: scroll;
+    gap: 4%;
+
+}
+
+.experiencie__box{
+    text-align: center;
+}
+
+/*-- Sección de contacto*/
+
+.formcontato__contacto{
+    display: flex;
+    gap: 5%;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
